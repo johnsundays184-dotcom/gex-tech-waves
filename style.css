@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #0077ff;
+  font-size: 24px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #0077ff;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #e6f1ff;
+}
+
+.hero h2 {
+  font-size: 36px;
+  color: #0077ff;
+}
+
+.hero p {
+  margin: 15px 0 25px;
+  font-size: 18px;
+}
+
+.btn {
+  background-color: #0077ff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background-color: #005fcc;
+}
+
+.about {
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+footer {
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  color: #777;
+  font-size: 14px;
+}
+/* Tutorials Page */
+.tutorials-list {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.tutorial-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.tutorial-card h3 {
+  color: #0077ff;
+  margin-bottom: 10px;
+}
+
+.tutorial-card p {
+  margin-bottom: 15px;
+  color: #555;
+}
+/* Contact Page */
+.contact-section {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-section label {
+  font-weight: 500;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.contact-section input,
+.contact-section textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.contact-section button {
+  margin-top: 15px;
+  background-color: #0077ff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contact-section button:hover {
+  background-color: #005fcc;
+}
